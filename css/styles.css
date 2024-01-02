@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 5.25rem;
+    color: #a4ebeb;;
+    text-align: center;
+} 
+
+.header-title {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+    /* ----------------------------------------- */
+
+.card {
+    border: none;
+}
+
+/* .card-body {
+    padding: 0;
+} */
+
+.card-text {
+    text-align: center;
+}
+
+.myContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 100px 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.myphoto {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+h1, h2 {
+    color: rgb(164, 235, 235);;
+}
+
+p {
+    color: grey;
+}
+
+
+/* .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 400px;
+} */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+}
+
+.my-button {
+    background-color: rgb(69, 166, 166); 
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    border: 2px solid rgb(255, 255, 255);
+    height: 60px;
+    width: 150px;
+}
+
+.my-footer {
+    background-color: rgb(164, 235, 235);
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-txt {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media {
+    color: rgb(24, 88, 88);
+}
+
+.phone {
+    margin: 30px;
+    font-size: smaller;
+    color: rgb(24, 88, 88);
+} 
+
+
+
+
+@media(max-width: 600px) {
+
+    .header-title {
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .carousel-item {
+        height: 300px;
+        min-height: 350px;
+      }
+
+    .carousel-caption {
+        padding-bottom: 3.25rem;
+    } 
+    
+
+    .card {
+        display: block;
+        width: 100%;
+        text-align: center;
+        bottom: 30px;
+        margin-left: 15px;
+    }
+
+    .card-text, .card-title {
+        text-align: center;
+    }
+
+    .card-img {
+        display: inline;
+        width: 90%;
+        bottom: 10px;
+        object-fit: cover;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .content {
+        width: 300px;
+        text-align: center;
+    }
+
+}
