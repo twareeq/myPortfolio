@@ -137,9 +137,7 @@ p {
 } 
 
 
-
-
-@media(max-width: 600px) {
+@media(max-width: 800px) {
 
     .header-title {
         font-weight: bold;
@@ -155,6 +153,13 @@ p {
         padding-bottom: 0.25rem;
     } 
     
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .card {
         display: block;
