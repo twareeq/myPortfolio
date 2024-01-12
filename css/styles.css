@@ -163,9 +163,9 @@ p {
 
     .card {
         display: block;
-        width: 100%;
         text-align: center;
         bottom: 30px;
+        margin: auto;
         /* margin-left: 15px; */
     }
 
