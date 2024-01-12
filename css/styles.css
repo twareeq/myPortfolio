@@ -37,16 +37,8 @@ body {
     border: none;
 }
 
-.card-body {
-    padding: 0;
-}
-
-.projects {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding-right: 20px;
+.project-col {
+    padding-right: 10px;
 }
 
 .card-img-top {
@@ -174,7 +166,7 @@ p {
         width: 100%;
         text-align: center;
         bottom: 30px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
     }
 
     .card-text, .card-title {
